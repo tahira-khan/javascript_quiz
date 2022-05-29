@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Predict the answers</title>
+    <link rel="stylesheet" href="predictstyle.css">
+    <script src="predictgame.js"></script>
+
+</head>
+<body>
+    <div align="center">
+      
+        <h1>Predict the Answers</h1> <input type="button" id="strtbtn" value="Click start" onclick="startt()"/>
+        
+        <input type="button" id="nxt" value="Next" onclick="next()" style=" visibility: hidden; " />
+
+        <div>
+            <h2 style="display: inline-block;">Score:</h2><h2 style="display: inline-block; color:blue; " id="scores"  > 0</h2>
+        </div>
+        
+        
+            <div id="ques" onclick="al()"></div>
+    <br/>
+    <section>
+        <div id="a0"><span id="span1"></span></div><br/>
+        <div id="a1"><span id="span2"></span></div><br/>
+        <div id="a2"><span id="span3"></span></div><br/>
+        <div id="a3"><span id="span4"></span></div><br/>
+        <div id="a4"><span id="span5"></span></div><br/>
+        <div id="a5"><span id="span6"></span></div><br/><br/><br/>     
+    </section>
+    <div>
+<input type="text" id="ans" placeholder="Please write your answers here..."/>
+    </div><br/>
+    <div>
+<button id="sub" onclick="display()">Submit</button>
+    </div>
+
+</div>
+
+</body>
+</html>
